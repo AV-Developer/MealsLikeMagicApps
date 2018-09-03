@@ -1,0 +1,328 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 46;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		2C396688213D41F200FFA0AF /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2C396687213D41F200FFA0AF /* AppDelegate.swift */; };
+		2C39668A213D41F200FFA0AF /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2C396689213D41F200FFA0AF /* ViewController.swift */; };
+		2C39668D213D41F200FFA0AF /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 2C39668B213D41F200FFA0AF /* Main.storyboard */; };
+		2C396690213D41F200FFA0AF /* MealsLikeMagic.xcdatamodeld in Sources */ = {isa = PBXBuildFile; fileRef = 2C39668E213D41F200FFA0AF /* MealsLikeMagic.xcdatamodeld */; };
+		2C396692213D41F200FFA0AF /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 2C396691213D41F200FFA0AF /* Assets.xcassets */; };
+		2C396695213D41F200FFA0AF /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 2C396693213D41F200FFA0AF /* LaunchScreen.storyboard */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXFileReference section */
+		2C396684213D41F200FFA0AF /* MealsLikeMagic.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = MealsLikeMagic.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		2C396687213D41F200FFA0AF /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
+		2C396689213D41F200FFA0AF /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
+		2C39668C213D41F200FFA0AF /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
+		2C39668F213D41F200FFA0AF /* MealsLikeMagic.xcdatamodel */ = {isa = PBXFileReference; lastKnownFileType = wrapper.xcdatamodel; path = MealsLikeMagic.xcdatamodel; sourceTree = "<group>"; };
+		2C396691213D41F200FFA0AF /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		2C396694213D41F200FFA0AF /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
+		2C396696213D41F200FFA0AF /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		2C396681213D41F200FFA0AF /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		2C39667B213D41F200FFA0AF = {
+			isa = PBXGroup;
+			children = (
+				2C396686213D41F200FFA0AF /* MealsLikeMagic */,
+				2C396685213D41F200FFA0AF /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		2C396685213D41F200FFA0AF /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				2C396684213D41F200FFA0AF /* MealsLikeMagic.app */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		2C396686213D41F200FFA0AF /* MealsLikeMagic */ = {
+			isa = PBXGroup;
+			children = (
+				2C396687213D41F200FFA0AF /* AppDelegate.swift */,
+				2C396689213D41F200FFA0AF /* ViewController.swift */,
+				2C39668B213D41F200FFA0AF /* Main.storyboard */,
+				2C396691213D41F200FFA0AF /* Assets.xcassets */,
+				2C396693213D41F200FFA0AF /* LaunchScreen.storyboard */,
+				2C396696213D41F200FFA0AF /* Info.plist */,
+				2C39668E213D41F200FFA0AF /* MealsLikeMagic.xcdatamodeld */,
+			);
+			path = MealsLikeMagic;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		2C396683213D41F200FFA0AF /* MealsLikeMagic */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 2C396699213D41F200FFA0AF /* Build configuration list for PBXNativeTarget "MealsLikeMagic" */;
+			buildPhases = (
+				2C396680213D41F200FFA0AF /* Sources */,
+				2C396681213D41F200FFA0AF /* Frameworks */,
+				2C396682213D41F200FFA0AF /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = MealsLikeMagic;
+			productName = MealsLikeMagic;
+			productReference = 2C396684213D41F200FFA0AF /* MealsLikeMagic.app */;
+			productType = "com.apple.product-type.application";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		2C39667C213D41F200FFA0AF /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastSwiftUpdateCheck = 0830;
+				LastUpgradeCheck = 0830;
+				ORGANIZATIONNAME = codemac;
+				TargetAttributes = {
+					2C396683213D41F200FFA0AF = {
+						CreatedOnToolsVersion = 8.3.3;
+						DevelopmentTeam = 65TN37L2QS;
+						ProvisioningStyle = Automatic;
+					};
+				};
+			};
+			buildConfigurationList = 2C39667F213D41F200FFA0AF /* Build configuration list for PBXProject "MealsLikeMagic" */;
+			compatibilityVersion = "Xcode 3.2";
+			developmentRegion = English;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = 2C39667B213D41F200FFA0AF;
+			productRefGroup = 2C396685213D41F200FFA0AF /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				2C396683213D41F200FFA0AF /* MealsLikeMagic */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		2C396682213D41F200FFA0AF /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				2C396695213D41F200FFA0AF /* LaunchScreen.storyboard in Resources */,
+				2C396692213D41F200FFA0AF /* Assets.xcassets in Resources */,
+				2C39668D213D41F200FFA0AF /* Main.storyboard in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		2C396680213D41F200FFA0AF /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				2C39668A213D41F200FFA0AF /* ViewController.swift in Sources */,
+				2C396690213D41F200FFA0AF /* MealsLikeMagic.xcdatamodeld in Sources */,
+				2C396688213D41F200FFA0AF /* AppDelegate.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXVariantGroup section */
+		2C39668B213D41F200FFA0AF /* Main.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				2C39668C213D41F200FFA0AF /* Base */,
+			);
+			name = Main.storyboard;
+			sourceTree = "<group>";
+		};
+		2C396693213D41F200FFA0AF /* LaunchScreen.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				2C396694213D41F200FFA0AF /* Base */,
+			);
+			name = LaunchScreen.storyboard;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		2C396697213D41F200FFA0AF /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 10.3;
+				MTL_ENABLE_DEBUG_INFO = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = DEBUG;
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Debug;
+		};
+		2C396698213D41F200FFA0AF /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 10.3;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				SDKROOT = iphoneos;
+				SWIFT_OPTIMIZATION_LEVEL = "-Owholemodule";
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		2C39669A213D41F200FFA0AF /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				DEVELOPMENT_TEAM = 65TN37L2QS;
+				INFOPLIST_FILE = MealsLikeMagic/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = safnil.MealsLikeMagic;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 3.0;
+			};
+			name = Debug;
+		};
+		2C39669B213D41F200FFA0AF /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				DEVELOPMENT_TEAM = 65TN37L2QS;
+				INFOPLIST_FILE = MealsLikeMagic/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = safnil.MealsLikeMagic;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 3.0;
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		2C39667F213D41F200FFA0AF /* Build configuration list for PBXProject "MealsLikeMagic" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				2C396697213D41F200FFA0AF /* Debug */,
+				2C396698213D41F200FFA0AF /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		2C396699213D41F200FFA0AF /* Build configuration list for PBXNativeTarget "MealsLikeMagic" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				2C39669A213D41F200FFA0AF /* Debug */,
+				2C39669B213D41F200FFA0AF /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+		};
+/* End XCConfigurationList section */
+
+/* Begin XCVersionGroup section */
+		2C39668E213D41F200FFA0AF /* MealsLikeMagic.xcdatamodeld */ = {
+			isa = XCVersionGroup;
+			children = (
+				2C39668F213D41F200FFA0AF /* MealsLikeMagic.xcdatamodel */,
+			);
+			currentVersion = 2C39668F213D41F200FFA0AF /* MealsLikeMagic.xcdatamodel */;
+			path = MealsLikeMagic.xcdatamodeld;
+			sourceTree = "<group>";
+			versionGroupType = wrapper.xcdatamodel;
+		};
+/* End XCVersionGroup section */
+	};
+	rootObject = 2C39667C213D41F200FFA0AF /* Project object */;
+}
